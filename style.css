@@ -1,0 +1,42 @@
+*{
+    
+}
+
+.card {
+    margin: auto;
+}
+
+.margin-top {
+    margin-top: 80px;
+}
+
+body {
+    background-image: url("./img/bg-image-2.jpg");
+    background-color: rgba(0, 0, 0, 0.5) !important;
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-position: top;
+}
+
+header {
+    background: transparent !important;
+    text-align: center;
+    padding-top: 2rem;
+    color: white;
+}
+
+.img-opt {
+    cursor: pointer;
+}
+img{
+    padding:10px ;
+}
+.bg-col-1{
+    background-color: green;
+    border: 5px solid green;
+}
+
+.disable {
+    filter: opacity(0.4);
+    cursor: not-allowed;
+}
